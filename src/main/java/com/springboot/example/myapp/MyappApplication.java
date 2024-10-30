@@ -23,7 +23,7 @@ public class 	MyappApplication {
 			//createStudent(studentDAO);
 
 			//CREATE multiple records
-			//createMultipleStudentDAO(studentDAO);
+			createMultipleStudentDAO(studentDAO);
 
 			//READ a single record
 			//readStudent(studentDAO);
@@ -47,7 +47,7 @@ public class 	MyappApplication {
 			//deleteStudent(studentDAO);
 
 			//DELETE all records
-			deleteAllStudents(studentDAO);
+			//deleteAllStudents(studentDAO);
 		};
 	}
 
