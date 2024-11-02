@@ -1,13 +1,13 @@
-package com.springboot.example.myapp.rest;
+package com.springbootexample.cruddemo.exception.response;
 
-public class StudentErrorResponse {
+public class EmployeeErrorResponse {
     private int status;
     private String message;
     private long timestamp;
 
-    public StudentErrorResponse(){}
+    public EmployeeErrorResponse() {}
 
-    public StudentErrorResponse(int status, String message, long timestamp) {
+    public EmployeeErrorResponse(int status, String message, long timestamp) {
         this.status = status;
         this.message = message;
         this.timestamp = timestamp;
